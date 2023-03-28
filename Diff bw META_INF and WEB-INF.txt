@@ -1,0 +1,12 @@
+META-INF:
+---------
+MANIFEST.MF
+maven - web folder(pom.xml and pom.properties)
+
+WEB-INF:
+--------
+web.xml
+jsp - login,home,admin,contact,error,common directories with assiciated jsp files inside
+classes - all properties files(application,log4j,messages) and spring folder(dispatcher-context)
+lib - jar files
+tiles - default template page

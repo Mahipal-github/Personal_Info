@@ -1,0 +1,494 @@
+Features of Java
+Java 1.8 features
+what is Stream API
+OOPS concepts in Java
+what is abstraction
+Diff bw interface and abstract class
+can we declare static method and default method in interface
+can we create an object of abstract class
+How to use the abstract class
+what is constructor and types of constructor
+
+
+can we overload the constructor
+--Yes, we can overload the constructor with diff parameters
+But default constructor is not overloaded because when we declare constructor default constructor is deleted from the class
+
+can we overload and override the static methods
+--Cant override static methods as there is no runtime polymorphism but can overload static methods
+
+what is static variable
+what is String in Java
+Why String is Immutable
+
+
+what is aggregation
+--It specifies the HAS-A relationship between two classes.
+If a class have an entity reference, it is known as Aggregation. Aggregation represents HAS-A relationship.
+Consider a situation, Employee object contains many informations such as id, name, emailId etc. It contains one more object named address, 
+which contains its own informations such as city, state, country, zipcode etc. as given below.
+
+what is super in java
+what is exception
+what is super class of exception
+what is final variable
+what are the types of exception
+what is runtime exception
+what is ArrayList and when to use the Arralist
+what is the difference bw Array and Arraylist
+How HashMap works internally
+print all the duplicate names and its count
+what is the diff bw spring MVC and Spring boot
+what r the configs that need to be added to spring boot security
+what is OAuth and how to use it
+which server is used for OAuth
+what is Rest API
+Diff bw Web API and Rest API
+Is Rest API uses view to pass to front end
+How to pass diff parmaeter using Rest API
+How can we pass an Object in Rest API
+What is @Autowired and its use, does it instantiate the bean
+Features of Java 8 - lambda exp, stream API, default methods
+How to use Lambda Expression
+where to use Stream API, what are the benefits of using it,does it degrade the performance
+How to call the SP from db using hibernate
+Caching Mechanism of Hibernate
+version control mechansims - git
+Diff be git fetch and git pull
+what is the purpose of using branches in repository
+
+Can we make a constructor final
+--No, constructor cant be made final it will throw modifier 'final not allowed '
+Basically constructor cant be inherited to any sub class so it is not required to make constructor final
+
+
+What are the components of a spring boot
+--
+
+what is custom exception and can we implement run time exception
+--In Java, we can create our own exceptions that are derived classes of the Exception class. 
+Creating our own Exception is known as custom exception or user-defined exception. 
+Basically, Java custom exceptions are used to customize the exception according to user need.
+
+How Hash Map works internally
+--Hash Map uses Hashing technique
+HashMap is a part of the Java collection framework. It uses a technique called Hashing. 
+It implements the map interface. It stores the data in the pair of Key and Value. 
+HashMap contains an array of the nodes, and the node is represented as a class. 
+It uses an array and LinkedList data structure internally for storing Key and Value. There are four fields in HashMap - hash code, key, value and next ref
+
+
+what is wrapper class
+what is thread safe class in collections eg
+Design patterns
+what is builder pattern and abstract factory
+what is optional class
+what is method reference
+what is IOC
+diff ways to create dependency injection - using constructor, fields and setters
+diff bean scopes - singleton,prototype,request,session
+Diff advantages of spring over spring boot -
+no need to worry xml configs, embedded tomcat server is there, lot of configs is not required
+what is the use of @springbootconfiguration annotation
+How to exclude the package for the base package not to scan that package - exclude
+What is @service,@component,@Repository,@Restcontroller
+Can we use @component instead of @service
+Diff bw @controller and @RestController
+How u achieve second level of caching in Hibernate
+What r the advantages of Hibernate over JDBC
+What is lazy loading and Eager loading in Hibernate, by default which loading is there in hibernate
+Diff bw get and load
+
+
+
+which all features u have used in Java 1.8 - optional class,functional interface
+what r the changes that has introduced in 1.8
+How to create functional interface
+what r all the methods in Stream API
+why default methods came into picture in Java 8
+why strings are immutable and why it is only for strings it is immutable
+what all thread safe collections - vector,copy on arraylist, concurrent hashmap
+Explain Copy on arraylist - 
+why r tree maps used
+why do we override equals() and Hashcode()
+Inside catch block i have written throwable t does JVM allows
+what are errors and parent class of errors
+what is AOP(Aspect oriented programming) in spring and what is advice
+why we use @Qualifier
+when creating the Rest APIs what are the best practices to follow like naming conventions and variables etc
+what r core components(what r required to run microservices) of microservices
+Configuring Spring JPA to connect to database
+Design patterns used in spring and spring boot - (singleton,builder,factory) in springboot,MVC in spring
+
+
+
+advs of springboot over spring
+what is the use of starters in spring boot
+what is the use of springboot-starter-parent and spring-boot-starter-web
+what is the use of springbootapplication annotation and what r its annotations
+what is @componentScan
+what u will provide from ur side to provide all config like db and objects in springboot
+how to establish a connection to db in springboot
+what is spring security
+what is @controller and @RestController and its diff
+what response u will provide in response body
+what is dispatch servlet
+Examples of checked and runtime exception
+
+what is Association,Aggregation,Composition
+what is Heap Area
+What happens when heap area is full
+what is garbage collection
+which type of exception you mostly faced in the project
+Is there any function to handle Null pointer exception in Optional class
+- Optional.isNullable()
+What is Exceptional Handling in Spring boot
+What is @ControllerAdvice annotation
+what is Serialization and Deserialization in Java
+What is HashMap
+Explain Design Patterns used in Project
+How to cover Exception related scenarios in Junit
+what is Lambda Expression
+write a program to count the no of vowels in a string using streams
+
+
+Java, Spring boot, hibernate and web services (Team Lead)
+------------------------------------------------
+what r ur roles and day to day responsibilites
+Do u have any experience in mentoring ur Juniors
+
+2 years exp:
+------------
+what happens if we dont have String[] args in main() - will compile but not run
+Can we execute java program without main() - yes but before JDK7 not after that
+Can we overload and override main() - can overload not override because it is static
+Can we change public to private in main() - we shoudnt because JVM checks for public static void main()
+What happens when we remove static from main() - gets error saying to please declare in public static void main()
+OOPS concepts
+What is marker interface
+what is fail safe and fail fast loop
+how to create a thread
+why to use interface instead of abstract class
+What is diamond problem
+what changes has done to Hashmap in Java 8 - balanced tree
+Diff bw ArrayList and LinkedList when to use what
+when to use Array and ArrayList
+Which one is sorted collection by default
+what is stream API
+What is Wrapper class,optional class
+Mention some of the object class methods
+Diff bw JAR and WAR
+Diff bw Application and web server
+What is default method 
+what are method references
+what is deadlock
+what is garbage collection 
+Can we forcefully do garbage collector for an object - no we cant
+Have u heard of finalize() - it is internal garbage collector used for cleanup activity
+what is string literal
+Why string is immutable
+Which is more efficient in terms of String, Sting Buffer, String Builder
+What are checked and Unchecked Exceptions
+Ways to handle exception - try catch block and using throw(custom exception)
+Use of throw Keyword
+Use of Comparable and comparator - used for sorting 
+----will go for comparator when u want to pass the comparison logic
+What is Singleton class - only one object is created
+Way to create a class singleton - by declaring constructor as private(it will not allow to create a new 
+object using new keyowrd)
+What is the use of Lambda - we can write anonymous method 
+What is the use of Optional class - used to avoid NullPointerException if an object is null
+can we declare static and default method in interface
+can we create object of abstract class and how to use abstract class
+what is constructor and types of contructor
+Can we make the constructor final
+what is aggregation
+what is this and super keyword
+TCS:
+What is association,aggregation,composition
+What is Heap Area
+What happens when heap area is full
+what is garbage collection
+way to handle nullpointerexception using optional class - optional.ofNullable();
+Exception Handling in Spring Boot - Global Exception handler and custom exception handler
+what is serialization in java
+What is HashMap
+Design patterns used in my project
+How to handle exception using JUNIT
+What is lambda expression
+
+Databases:
+----------
+How do u connect ur application to database - using JPA with the help of pom.xml()
+what is pom.xml - we can add dependencies to it without creating any bean class
+How will u take code from remote to local machine
+Write a query to print all the duplicate names and count of those
+
+
+
+SpringBoot:
+-------------
+what is the use of Application properties
+Any other way to implement config in SpringBoot - done by XML or Annotations (Hardcoding problem with these two)
+----with the help of Yaml we can configure
+
+
+
+how can we achieve singleton pattern
+how can we make singleton in stream
+what are the processess/practices to be followed to develop,maintain a scalable software
+how can u implement jwt token 
+
+
+
+
+Answers:
+-----------------------
+Copy Constructor 
+- creates one object from the existing object of the same class
+- used mostly when there r complex objects that has several fields and when we need deep copy of the
+existing object
+- create a copy construct, we can first declare a constructor that takes an object of the same type as a parameter:
+Diff bw copy constructor and clone method
+- with clone we need to implement cloneable interface and need to handle clonenotsupportedexception
+- we cant do copy of vairable declared as final in clone method
+
+
+constructor chaining
+-calling one constructor from another constructor with respect to current object
+- Constructor chaining can be done in two ways: 
+- Within same class: It can be done using this() keyword for constructors in same class
+- From base class: by using super() keyword to call constructor from the base class.
+
+
+singleton class
+-a class is said to be singleton if it limits the number of objects of that class to one.
+-We can’t have more than a single object for such classes.
+-Singleton classes are employed extensively in concepts like Networking and Database Connectivity.
+
+Dynamic method dispatch - run time polymorphism
+- it is a mechanism that helps to resolve when a call to a overridden method is made during run time.
+- when a super class reference is created and with the help Java determines which version(superclass/subclasses) of that method is to be executed 
+based upon the type of the object being referred to at the time the call occurs. Thus, this determination is made at run time
+
+Overriding and Exception-Handling : Below are two rules to note when overriding methods related to exception-handling.
+Rule#1 : If the super-class overridden method does not throw an exception, subclass overriding method can only throws the unchecked exception, 
+throwing checked exception will lead to compile-time error.
+Rule#2 : If the super-class overridden method does throws an exception, subclass overriding method can only throw same, subclass exception. 
+Throwing parent exception in Exception hierarchy will lead to compile time error.Also there is no issue if subclass overridden method is not throwing 
+any exception.
+
+Data Abstraction
+- Data Abstraction is the property by virtue of which only the essential details are displayed to the user. 
+The trivial or the non-essentials units are not displayed to the user. Ex: A car is viewed as a car rather than its individual components.
+-Data Abstraction may also be defined as the process of identifying only the required characteristics of an object ignoring the irrelevant details. 
+The properties and behaviours of an object differentiate it from other objects of similar type and also help in classifying/grouping the objects.
+
+Roles and Responsibilites:
+------------------------------
+Managing and maintaining the source code. 
+Performing Production verification tests during application and infrastructure upgrades.
+Gathering the requirements from the users, preparing the understanding documents and designing the application as per the requirements.
+//Providing Support for any design Enhancements.
+Preparing AOD's and request anyalysis,RCA docs.
+End to end 24/7 support for all apps in our scope
+
+TCS PI Questions:
+-------------
+Introduce yourself
+which version of Java used in project - Java 7
+Have u worked on Java 8 - know theoritically
+What is Functional Interface
+what is Lambda Expression
+How to create a Thread
+Which approach is better to create Thread and why
+What is List and Set
+What do u mean by Generics
+How Hashmap works internally
+What is predicate and function
+What is Runnable and callable
+What is Stream API
+What are intermediate and Terminal operations
+Is ur project following any kind of methodology like Agile and Waterfall
+Why do u want to switch the organisation
+If u get an opportunity to work on legacy technologies will u work
+
+
+Amdocs for 1+ yoe
+-----------------
+Java Immutability
+Can we make any class or component immutable
+Static keyword
+Java 8 Features
+Optional Keyword
+Java Streams
+Functional Interface
+Why string is immutable
+Diff bw string Buffer and String builder
+Ds-Alog - given a string and return all the palindrome from that string
+What is Rest service
+Diff bw soap and Rest
+Diff annotations used 
+Diff bw post mapping and
+Advs of rest service
+How to handle exceptions when ur building rest service from scratch
+What is Dependency Injection and what are the types of DI
+what are beans
+What is microservice 
+Why microservice is preferred than monolithic 
+
+Amdocs MI questions
+--------------------
+what is marker interface
+How do u implement marker interface
+catch block rules
+comparable and comparator
+sql queries
+Immutable class
+singleton pattern
+Exception handling in spring boot
+Mockito test cases
+How do u call rest service from another service
+Basic annotations 
+Comparable syntax
+sql queries syntax
+How do u call rest service from other service in spring boot
+
+Deloitte Interview Questions:
+------------------------------
+transient Keyword
+constructor overloading and constructor overriding with code
+how to add user defined objects in tree set
+overview of solid principles
+Design Pattern - 
+what is the default embedded server in Spring boot - 3 servers(Tomcat,Undertow,Jetty)
+Disadvantages of spring boot -
+- creates lot of unused dependencies resulting in larger deployment file
+- time consuming process of converting a spring legacy project to spring boot project
+what is second level cache in hibernate
+how to enable random port in spring boot
+- give server.port=0 in application.properites file
+what is the use of profiles in spring boot
+- profile is a set of config settings
+- spring boot allows to specify profile specific properties from our app.properties file
+- it will automatically add profiles to the project
+
+TechM interview Ques:
+---------------------
+How to remove duplicates from Array in Java
+Diff bw metaspace and premgen space
+until java 7 we have a concept of Premgen space, later from java 8 they introduced metaspace
+-premgen space usually stores classes and throws java.lang.outofmemory premgen exceptions, from java 8
+those doesnt occur becacues they replaced with metaspace
+-Permgen space is of fixed size, but metaspace is auto incremented
+-Permgenspace has inefficient garbage collection, metaspace has efficient garbage collection
+How to handle NullPointerException in Java 8
+-using Optional Class
+E.g. - Optional<String> st = Optional.ofNullable(str[4]);
+       if(st.ispresent{})
+{
+sop(st.get().toLowerCase());
+}
+else
+{
+sop("No string is present");
+}
+Example of GroupBy using streams in java8
+-List<Employee> emp = new ArrayList<>()
+Map<String,List<Employee> EmpByCity = new HashMap<>();
+EmpByCity=emp.stream().collect(Collectors.groupingBy(Employee::getCity()));
+sop(EmpByCity);
+Diff bw JDK,JRE and JVM
+Sort A collection using Comparator using java8 features
+How to add User Defined Objects in TreeSet
+What is swagger and why we use swagger in springboot
+How u handle exceptions in Springboot
+Why we use SpringBoot for microservices
+What is DEV tools in Spring Boot
+-it will be reloaded/restarted whenever u do any changes in ur application
+How to access value in Props file into Spring boot App - using @value
+Real time Microservices example
+
+
+IBM (3.5)
+-----------
+What is Springboot and its advantages
+Why to use Springboot and not JBOSS
+What is the diff bw controller and Rest controller
+what is the diff bw GET and POST
+How data is passed in GET and POST
+New features of Java 1.8
+-forEach loop
+-Stream API
+-Functional Interface
+-Lambda Expression
+-Optional Class
+What is stack overflow error
+What is the diff bw normal forloop and steam foreach loop
+What is the set that maintains order - LinkedHashSet
+What is Queue and Stack
+What is Dynamic Binding(Runtime polymorphism)
+What are functional interfaces
+What are the best practices of webservices/microservices
+-both are in http protocol
+-proper URI
+-services should be independent of each other
+How do u establish connection with DB in Springboot - using spring data jpa and app.properties
+
+
+TCS PI Questions - 16/Dec/2022
+------------------------------
+Technical
+---------
+1)Introduction
+2)About Project and technologies used
+3)What is static variable
+4)what is static method and diff bw static and instance methods
+5)Explain Heap area and stack area
+6)What is copy constructor
+7)What are design patterns
+8)What is Springboot
+9)How u r securing ur applications, do u know spring security
+10)Are C++ and Java both are OOP languages?
+11)Do u know any NOSQL DB
+12)How do u configure the hibernate
+13)Diff bw equals and ==
+Manageral
+---------
+1)What kind of project
+2)Are u working in Agile
+3)Did u worked on documentation
+4)Have u faced any issues while working in a project
+5)If u did any code mistakes how will u rectify it
+6)If u have one opinion and other person has different opinion, do u allow others opinion or not
+7)What are ur strenghts
+8)Do u have exp in any other technologies
+
+ADP PI Questions
+----------------
+Self Introduction
+Cybersecurity Analyst - Job description, roles and resposibilites
+Roles and Responsibilities in ur project
+Why is Java used by many developers
+What are the security features provided by Java
+what is platform Independent
+What are access speicifiers in Java
+Example for protected
+Exception Handling - throw and throws Keyword,try,catch,finally
+How the Runtime exceptions are thrown and why we use multiple Catch blocks
+Diff b/w Abstract class and Interface
+How do u define Interface and we cant provide implemention in interface
+Does Java support multiple inheritance if not why
+What is method overloading and overriding
+Diff bw Arraylist and linked list
+Why String is immutable and based on below example what will happen
+String str="apple";
+str="mango";
+How garbage collection happens
+which algorithm does garbage collector uses
+Can we force to do the garbage collection in Java
+Diff bw Array and Arraylist and when to choose what
+Does linked list delete the entire node when we want to delete the data
+
+Program - WAP to count the no of chars repeting in a string (p=2 in apple)
+
