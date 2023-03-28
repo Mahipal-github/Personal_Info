@@ -1,0 +1,49 @@
+In Git Hub CMD(will come when u install git for windows) :-
+-----------------------------------------------------------------
+
+1)git init - to initialize .git in local repo which has the history details
+2)git status - to check the status of commits on branch master
+3)git add MyFile.txt - to add any file that is being staged to be committed to repo
+4) git commit -m "Added MyFile" - to commit to repo with the msg 
+5) git log - shows most recent committed ones with time and who did it
+6) git add MyFile.txt MyOtherFile.txt - to add the changed files to repo
+7) git commit -m "Changed Files" - to commit after doing changes in the file
+Create a public repo in ur git hub account
+8) git remote add origin https://github.com/mahipal/Repo1.git - it will add or make sync the current local repo to the newly created
+repo on github
+9) git remote -v - to verify whether it is in sync with github
+10) git push -u origin master - it will add the local master branch to the Repo1 master branch
+
+If u make any changes in Repo1 directly on github and it is needed to be in sync with local repo then we have three
+scenarios 'fetch and merge' or 'pull'
+
+11) git fetch origin master - will take the update file from Repo1 and place it in local repo of .git
+12) git merge origin/master - will update the updated file of Repo1 in the local repo
+13) git pull origin master  - will automatically do fetch and merge
+
+scenarios after adding readme while creating a new repo
+-------------------------------------------------------
+
+1) git remote remove origin - it will break the connection with Repo1 in github
+2) git remote add origin https://github.com/mahipal/Repo2.git - it makes sync with Repo2 where readme file exists
+
+If u push like before will not push because both are not in sync because Repo2 contains readme which is not there in local repo
+to make both in sync
+3) git pull origin master --allow-unrelated-histories - will add readme in local repo to make sync
+4) git push origin master - will push local repo and makes sync
+
+Cloning the git repo Repo3 into local
+--------------------------------------
+
+1) git clone https://github.com/mahipal/Repo3.git - will copy the Repo3 which is there in github to local with .git
+after that we can use it like before
+
+Branches 
+--------
+
+Branches make the code isolated
+create another branch for a master branch and make sync after doing changes to other branch
+After reviewing and when needed to be merged with master create a pull request and merge it with master branch
+
+Resolving Conflicts
+-------------------
